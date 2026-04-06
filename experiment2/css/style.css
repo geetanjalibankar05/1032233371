@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2f80ed;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: #2f80ed;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #f0f4ff;
+    border-radius: 5px;
+}
+
+/* Sections */
+.card {
+    background: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #2f80ed;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #e6ecff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills span {
+    background-color: #e6ecff;
+    color: #2f80ed;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: #666;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
